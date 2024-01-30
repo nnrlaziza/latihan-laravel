@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-<h1>halaman Category</h1>
+<h1>Halaman Category</h1>
 
 <div class="container">
     <div class="row">
