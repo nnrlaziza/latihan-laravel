@@ -3,10 +3,11 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
-use \App\Models\User;
-use \App\Models\Category;
 use \App\Models\Post;
+use \App\Models\User;
+use App\Models\Store;
+use \App\Models\Category;
+use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -29,6 +30,7 @@ class DatabaseSeeder extends Seeder
             'slug'=> "work-out",
         ]);
         Post::factory(16)->create();
+        Store::factory(10)->create();
     }
 
 }
