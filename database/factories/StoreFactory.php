@@ -20,6 +20,7 @@ class StoreFactory extends Factory
             'title' => $this->faker->sentence(mt_rand(3, 8)),
             'slug' => $this->faker->slug(),
             'description' => $this->faker->sentence(mt_rand(10,18)),
+            'body' => $this->faker->sentence(mt_rand(20,28)),
             'price' => $this->faker->randomNumber(5, true),
             'user_id' => mt_rand(1,5),
             'book_category_id' =>mt_rand(1,3)

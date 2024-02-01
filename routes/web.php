@@ -20,9 +20,9 @@ Route::get('/about', function () {
     return view('about', [
         "title" => "About",
         "active" => "about",
-        "nama" => "Muh ichwan",
-        "email" => "ichwannur617@gmail.com",
-        "image" => "IMG-20210625-WA0001 - Salin.jpg"
+        "nama" => "Nurul",
+        "email" => "NurulAzizah@gmail.com",
+        "image" => "kontak.jpg"
     ]);
 });
 
